@@ -5,17 +5,30 @@ html, body {
 	padding: 0;
 	width: 100%;
 	overflow-x: hidden;
+    font-family: 'Helvetica', 'Arial', sans-serif;
 }
 .container{
     border-radius: 15px;
 	padding: 30px 30px 10px;
 	background-color: #eee;
 	text-align: center;
-
-    padding: 2% 5% 0%;
+    margin: 2% 5% 0%;
 }
 .title1, .subHead, .title2, .introPara{
     text-align: center;
+}
+.title1{
+    font-size: 70px;
+}
+.subHead{
+    margin-top: -50px;
+}
+.subLine{
+    margin-top: 8px;
+    padding-bottom: 8px;
+}
+.introPara{
+    text-align: left !important;
 }
 .section1{
     align-items: center;
@@ -23,6 +36,7 @@ html, body {
     margin:0 auto;
     border-radius: 15px;
 	padding: 10px;
+    padding: 2% 5% 0%;
 	background-color: #ccc;
 	text-align: center;
 	color: #222;
