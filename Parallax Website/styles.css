@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-weight: 100;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+.parallax {
+  background: url("https://images.pexels.com/photos/192136/pexels-photo-192136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  color: aliceblue;
+  font-size: 160px;
+  text-align: center;
+}
+.head1,
+.head2,
+.head3 {
+  margin-top: 200px;
+}
+.para {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 80em;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+.parallax1 {
+  background: url("https://images.pexels.com/photos/3369569/pexels-photo-3369569.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -550px;
+}
+.parallax2 {
+  background: url("https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -550px;
+}
+.para3{
+    margin-bottom: -200px;
+}
